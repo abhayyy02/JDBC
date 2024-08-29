@@ -4,10 +4,10 @@ Steps for establising connection :
 
 -------------------------- ^_^ -------------------------- 
 
-** SetUp ** 
-1. Create a new Maven Project
-2. Create new package, inside package create a new class ( All these should be created inside 'src/man.java' )
-3. Copy the dependency tag from Maven repository by searching postgreqsl Driver (Because I have used PostGreSql Database)
+** SetUp ** (Using Eclipse IDE)
+1. Create a new Maven Project.
+2. Create new package, inside package create a new class ( All these should be created inside 'src/main.java' ).
+3. Copy the dependency tag from Maven repository by searching postgreqsl Driver (Because I have used PostGreSql Database).
 4. Paste inside pom.xml file which will be created when you perform above steps.
 
 All set for writing the code.
@@ -20,8 +20,8 @@ All set for writing the code.
 
 
 ** Steps inside java file ** :
-1. Load or Register the driver using --> Class.forName("Fully Qualified Classname")
-2. Create connection using --> Driver.getConnection("Url,username,password")
-3. Create statemnt using --> referenceVar_of_Connection.createStatement()
+1. Load or Register the driver using --> Class.forName("Fully Qualified Classname");
+2. Create connection using --> Driver.getConnection("Url,username,password");
+3. Create statemnt using --> referenceVar_of_Connection.createStatement();
 4. Execute the query --> referenceVar_of_Statement.execute(SQL_QUERY);
 5. Close the connection --> referenceVar_of_Connection.close();
