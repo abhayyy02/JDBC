@@ -1,0 +1,9 @@
+JDBC (JAVA DATABSE CONNECTIVITY)
+
+Steps for establising connection : 
+
+1. Load or Register the driver using --> Class.forName("Fully Qualified Classname")
+2. Create connection using --> Driver.getConnection("Url,username,password")
+3. Create statemnt using --> referenceVar_of_Connection.createStatement()
+4. Execute the query --> referenceVar_of_Statement.execute(SQL_QUERY);
+5. Close the connection --> referenceVar_of_Connection.close();
